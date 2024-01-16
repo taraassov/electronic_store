@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class Network(models.Model):
+    pass
+
+class Meta:
+    verbose_name = 'Урок'
+    verbose_name_plural = 'Уроки'
